@@ -1,0 +1,23 @@
+<h2 class="text-center mb-4">Resources</h2>
+<div class="table-container">
+  <table class="resource-table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let resource of resourceList">
+          <td>{{ resource.id }}</td>
+          <td>{{ resource.name }}</td>
+          <td>
+            <button class="btn btn-book" (click)="openBookingForm(resource)">
+              Book Here
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

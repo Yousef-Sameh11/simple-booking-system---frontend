@@ -1,0 +1,16 @@
+<h3 class="text-center">Booking Resource {{resourceId}}</h3>
+
+<div class="booking-form-container">
+  <div class="booking-form">
+    <label for="date-from">Date From</label>
+        <input id="date-from" type="datetime-local" [(ngModel)]="dateFrom" name="dateFrom"  required/>
+
+        <label for="date-to">Date To</label>
+        <input id="date-to" type="datetime-local" [(ngModel)]="dateTo" name="dateTo" required />
+
+        <label for="quantity">Quantity</label>
+        <input id="quantity" type="number" [(ngModel)]="quantity" name="quantity" required />
+
+    <button (click)="book()">Book</button>
+  </div>
+</div>

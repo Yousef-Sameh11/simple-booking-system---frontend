@@ -1,0 +1,45 @@
+/* Container for the booking form */
+.booking-form-container {
+    margin: 20px auto; /* Center the container */
+    max-width: 400px; /* Set a max width for the form */
+    border: 1px solid #dee2e6; /* Light border around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Padding inside the container */
+    background-color: #ffffff; /* White background */
+  }
+  
+  /* Booking form styles */
+  .booking-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .booking-form label {
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold labels for emphasis */
+  }
+  
+  .booking-form input {
+    padding: 10px; /* Space inside input fields */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ced4da; /* Light border around inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px; /* Font size for inputs */
+  }
+  
+  /* Button styles */
+  .booking-form button {
+    padding: 10px 15px; /* Padding for button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+  }
+  
+  .booking-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
